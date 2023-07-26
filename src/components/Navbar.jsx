@@ -1,25 +1,20 @@
 import React, { useState } from "react";
-import Logo2 from "../assets/logo2.bmp";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <Link to="home">
-        {/* <img src={Logo2} alt="Logo Image" style={{ width: "50px" }} /> */}
-      <h1 className="font-sans text-3xl italic font-bold text-pink-600">TI</h1>  
+        <h1 className="font-sans text-3xl italic font-bold text-pink-600">
+          TI
+        </h1>
       </Link>
-      {/* Menu */}
 
       <ul className="hidden md:flex">
         <li>
@@ -61,28 +56,58 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-centeritems-center "
         }
       >
-        <li  className="py-6 text-4xl">
-          <Link  onClick={handleClick} to="home" smooth={true} offset={50} duration={500}>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="home"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} offset={50} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="about"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} offset={50} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="skills"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} offset={50} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="work"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             Work
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} offset={50} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             Contact
           </Link>
         </li>
