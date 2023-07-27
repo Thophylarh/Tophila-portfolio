@@ -1,6 +1,11 @@
 import React from "react";
 import WorkImg from "../assets/workimg.bmp";
-import RealEstate from "../assets/realestate.bmp";
+
+import remisImg from "../assets/remisImg.png";
+import gptImg from "../assets/gptweb.png";
+import shopImg from "../assets/shopImg.png";
+import Demodsh from "../assets/demoDsh.png";
+import FpImg from "../assets/fpImg.png";
 
 const Work = () => {
   return (
@@ -14,17 +19,17 @@ const Work = () => {
         </div>
         {/* container */}
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-            {/* Grid Item */}
+          {/* Grid Item */}
           <div
             style={{
-              backgroundImage: `url(${WorkImg})`,
+              backgroundImage: `url(${remisImg})`,
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold tracking-wider text-white">
-                React JS Application
+                Remis Website 
               </span>
               <div className="pt-8 text-center">
                 <a href="https://remis.africa/">
@@ -42,14 +47,14 @@ const Work = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${RealEstate})`,
+              backgroundImage: `url(${gptImg})`,
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold tracking-wider text-white">
-                React JS Application
+                AI website
               </span>
               <div className="pt-8 text-center">
                 <a href="http://mod-web.netlify.app">
@@ -67,84 +72,89 @@ const Work = () => {
           </div>
           <div
             style={{
+              backgroundImage: `url(${shopImg})`,
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold tracking-wider text-white">
+                E-commerce Demo 
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="egbon.netlify.app
+"
+                >
+                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
+                    Demo
+                  </button>
+                </a>
+                {/* <a href="/">
+                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
+                    Code
+                  </button>
+                </a> */}
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              backgroundImage: `url(${Demodsh})`,
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold tracking-wider text-white">
+               Dashboard Demo
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="agy.netlify.app"
+                >
+                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
+                    Demo
+                  </button>
+                </a>
+                {/* <a href="/">
+                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
+                    Code
+                  </button>
+                </a> */}
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              backgroundImage: `url(${FpImg})`,
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold tracking-wider text-white">
+                Fuel Price
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://fuelprice.ng/register"
+                >
+                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
+                    Demo
+                  </button>
+                </a>
+                {/* <a href="/">
+                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
+                    Code
+                  </button>
+                </a> */}
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
               backgroundImage: `url(${WorkImg})`,
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold tracking-wider text-white">
-                React JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Demo
-                  </button>
-                </a>
-                {/* <a href="/">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Code
-                  </button>
-                </a> */}
-              </div>
-            </div>
-          </div>
-          <div
-            style={{
-              backgroundImage: `url(${RealEstate})`,
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold tracking-wider text-white">
-                React JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="egbon.netlify.app
-">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Demo
-                  </button>
-                </a>
-                {/* <a href="/">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Code
-                  </button>
-                </a> */}
-              </div>
-            </div>
-          </div>
-          <div
-            style={{
-              backgroundImage: `url(${WorkImg})`,
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold tracking-wider text-white">
-                React JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="agy.netlify.app
-">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Demo
-                  </button>
-                </a>
-                {/* <a href="/">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Code
-                  </button>
-                </a> */}
-              </div>
-            </div>
-          </div>
-          <div
-            style={{
-              backgroundImage: `url(${RealEstate})`,
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
