@@ -3,7 +3,7 @@ import Javascript from "../assets/javascript.bmp";
 import Css from "../assets/css.bmp";
 
 import ReactImg from "../assets/reactimg.bmp";
-import Tailwind from "../assets/tailwind.bmp";
+
 
 import html from "../assets/svg/html.svg";
 import redux from "../assets/svg/redux.svg";
