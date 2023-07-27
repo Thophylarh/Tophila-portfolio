@@ -83,7 +83,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="egbon.netlify.app
+                  href="https://egbon.netlify.app/
 "
                 >
                   <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
@@ -111,7 +111,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="agy.netlify.app"
+                  href="https://agy.netlify.app/"
                 >
                   <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
                     Demo
