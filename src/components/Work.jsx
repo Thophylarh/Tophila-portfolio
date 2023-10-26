@@ -29,7 +29,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold tracking-wider text-white">
-                Remis Website 
+                Remis Website
               </span>
               <div className="pt-8 text-center">
                 <a href="https://remis.africa/">
@@ -37,11 +37,6 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                {/* <a href="/">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Code
-                  </button>
-                </a> */}
               </div>
             </div>
           </div>
@@ -62,11 +57,6 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                {/* <a href="">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Code
-                  </button>
-                </a> */}
               </div>
             </div>
           </div>
@@ -79,22 +69,14 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold tracking-wider text-white">
-                E-commerce Demo 
+                E-commerce Demo
               </span>
               <div className="pt-8 text-center">
-                <a
-                  href="https://egbon.netlify.app/
-"
-                >
+                <a href="https://egbon.netlify.app/">
                   <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
                     Demo
                   </button>
                 </a>
-                {/* <a href="/">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Code
-                  </button>
-                </a> */}
               </div>
             </div>
           </div>
@@ -107,21 +89,34 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold tracking-wider text-white">
-               Dashboard Demo
+                Dashboard Demo
               </span>
               <div className="pt-8 text-center">
-                <a
-                  href="https://agy.netlify.app/"
-                >
+                <a href="https://agy.netlify.app/">
                   <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
                     Demo
                   </button>
                 </a>
-                {/* <a href="/">
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              backgroundImage: `url(${FpImg})`,
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold tracking-wider text-white">
+                Christpiracy
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://new-xpiracy.vercel.app/">
                   <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Code
+                    User
                   </button>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
@@ -137,18 +132,11 @@ const Work = () => {
                 Fuel Price
               </span>
               <div className="pt-8 text-center">
-                <a
-                  href="https://fuelprice.ng/register"
-                >
+                <a href="https://fuelprice.ng/register">
                   <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
                     Demo
                   </button>
                 </a>
-                {/* <a href="/">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Code
-                  </button>
-                </a> */}
               </div>
             </div>
           </div>
@@ -161,19 +149,14 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold tracking-wider text-white">
-                React JS Application
+                Christpiracy
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://xpiracy-web-admin.vercel.app/sign-in">
                   <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Demo
+                    Admin
                   </button>
                 </a>
-                {/* <a href="/">
-                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
-                    Code
-                  </button>
-                </a> */}
               </div>
             </div>
           </div>

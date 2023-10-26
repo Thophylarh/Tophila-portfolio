@@ -15,7 +15,6 @@ const Navbar = () => {
           TI
         </h1>
       </Link>
-
       <ul className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} offset={50} duration={500}>

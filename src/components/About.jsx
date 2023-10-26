@@ -11,20 +11,26 @@ const About = () => {
             </p>
           </div>
           <div></div>
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+          <div className="text-4xl font-bold sm:text-right">
+            <p>Hi, I'm Tophila, nice to meet you, please take a look around.</p>
           </div>
-          <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className="text-4xl font-bold sm:text-right">
-              <p>
-                Hi, I'm Tophila,  nice to meet you,
-                 please take a look around.
-              </p>
-            </div>
-            <div>
-                <p>I am passionate about creating excellent software that enriches the lives of others. My specialization lies in developing software for a wide range of clients, from individuals and small businesses to large enterprise corporations. Imagine having a dedicated software expert who can analyze your needs and bring innovative solutions to life. Let's collaborate to turn your vision into reality and create software that sets you apart in the digital landscape.</p>
-            </div>
+          <div>
+            <p>
+              I am deeply enthusiastic about crafting outstanding software that
+              enhances the experiences of users. My expertise lies in creating
+              software solutions for diverse clientele, spanning from
+              individuals and small enterprises to large corporations. Picture
+              having a committed software professional who can assess your
+              requirements and transform them into innovative, real-world
+              solutions. Let's work together to transform your ideas into
+              reality and develop software that distinguishes you in the digital
+              realm.
+            </p>
           </div>
         </div>
-      
+      </div>
     </div>
   );
 };
